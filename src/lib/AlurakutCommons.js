@@ -35,7 +35,7 @@ export function AlurakutMenu({ githubUser }) {
         </nav>
 
         <nav>
-          <a href={`/logout`}>
+          <a href={`/login`}>
             Sair
           </a>
           <div>
@@ -160,6 +160,13 @@ AlurakutMenu.Logo = styled.img`
   padding: 9px 14px;
   border-radius: 1000px;
   height: 34px;
+
+  /* position: absolute;
+  width: 231.42px;
+  height: 231.42px;
+  left: 69.04px;
+  top: 92px; */
+
 `;
 
 function AlurakutMenuProfileSidebar({ githubUser }) {
@@ -211,7 +218,7 @@ export function AlurakutProfileSidebarMenuDefault() {
           <img src={`${BASE_URL}/icons/plus.svg`} />
             GitHub Trends
           </a>
-        <a href="/logout">
+        <a href="/login">
           <img src={`${BASE_URL}//icons/logout.svg`} />
             Sair
           </a>
